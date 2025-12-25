@@ -1,24 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Brew Haven | Artisan Coffee Shop - Premium Specialty Coffee</title>
+    <meta name="description" content="Experience the finest artisan coffee at Brew Haven. Premium single-origin beans, expert baristas, and a cozy atmosphere. Order online or visit us today!" />
+    <meta name="keywords" content="coffee shop, artisan coffee, specialty coffee, espresso, cappuccino, latte, coffee delivery" />
+    <meta name="author" content="Brew Haven" />
+    
+    <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
+    <meta property="og:title" content="Brew Haven | Artisan Coffee Shop" />
+    <meta property="og:description" content="Experience the finest artisan coffee. Premium single-origin beans, expert baristas, and a cozy atmosphere." />
+    <meta property="og:site_name" content="Brew Haven" />
+    
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:title" content="Brew Haven | Artisan Coffee Shop" />
+    <meta name="twitter:description" content="Experience the finest artisan coffee. Premium single-origin beans and expert baristas." />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://brewhaven.com" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#5D4037" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CoffeeShop",
+      "name": "Brew Haven",
+      "description": "Premium artisan coffee shop serving specialty single-origin coffee",
+      "url": "https://brewhaven.com",
+      "telephone": "+1-234-567-890",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Coffee Street",
+        "addressLocality": "Bean District",
+        "addressRegion": "CA",
+        "postalCode": "90210",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "08:00",
+          "closes": "21:00"
+        }
+      ],
+      "priceRange": "$$",
+      "servesCuisine": "Coffee"
+    }
+    </script>
   </head>
-
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
